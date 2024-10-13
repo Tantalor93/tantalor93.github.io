@@ -5,3 +5,8 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: jekyll/minima
+
+minima:
+  social_links:
+    - { platform: github,   user_url: "https://github.com/Tantalor93" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/ond%C5%99ej-benkovsk%C3%BD-5b0842ba" }
