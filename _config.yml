@@ -1,8 +1,12 @@
-title: My Blog
+title: Blog
+author:
+  name: Ondřej Benkovský
+  email: obenky@gmail.com
 
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
 
 remote_theme: jekyll/minima@6b9b78d
 
