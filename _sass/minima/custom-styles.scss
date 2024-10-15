@@ -1,0 +1,15 @@
+.about-profile-img {
+  width: 30%;             // Set desired width (adjust as needed)
+  height: auto;             // Maintain aspect ratio
+  margin-right: 40px;
+}
+
+.about-text {
+  width: 70%
+}
+
+.about-container {
+  display: flex;             /* Use flexbox to align items next to each other */
+  justify-content: space-between; /* Distribute space between the image and text */
+  margin: 20px 0;            /* Add margin to the container */
+}
