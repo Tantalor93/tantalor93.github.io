@@ -35,6 +35,7 @@ figcaption {
   gap: 10px;                   /* Adjust the gap between the images */
   width: 100%;                 /* Make container span the full width */
   max-width: 800px;            /* Optional: Set a max width for the image container */
+  align-items: center;
 }
 
 .twin-image {
