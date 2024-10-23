@@ -15,7 +15,29 @@
 }
 
 figcaption {
-  margin-bottom: 0.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #646769;
   text-align: center;
+}
+
+.dnspyre-image-and-caption-container {
+  display: flex;
+  flex-direction: column;      /* Stack the images container and caption vertically */
+  align-items: center;         /* Center the images and caption horizontally */
+  width: 100%;                 /* Ensure wrapper spans full width */
+  margin-top: 5px;
+}
+
+.dnspyre-images-container {
+  display: flex;               /* Align images next to each other */
+  justify-content: space-between; /* Add space between the images */
+  gap: 10px;                   /* Adjust the gap between the images */
+  width: 100%;                 /* Make container span the full width */
+  max-width: 800px;            /* Optional: Set a max width for the image container */
+}
+
+.dnspyre-image {
+  width: 50%;                  /* Each image takes up 50% of the container width */
+  height: auto;                /* Maintain aspect ratio */
 }
