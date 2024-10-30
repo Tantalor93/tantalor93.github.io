@@ -21,6 +21,12 @@ figcaption {
   text-align: center;
 }
 
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .twin-image-and-caption-container {
   display: flex;
   flex-direction: column;      /* Stack the images container and caption vertically */
