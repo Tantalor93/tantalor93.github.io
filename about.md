@@ -8,7 +8,7 @@ permalink: /about/
 <div class="about-container">
 
 <div class="about-profile-img">
-<a href="{{ site.baseurl }}/assets/images/profile.jpeg">
+<a href="{{ site.baseurl }}/assets/images/profile.jpeg" target="_blank">
 <img src="{{ site.baseurl }}/assets/images/profile.jpeg" alt="profile image">
 </a>
 </div>

@@ -9,7 +9,7 @@ I realized it would be beneficial to provide a way to visualize results using li
 This led me to the [gonum/plot](https://github.com/gonum/plot) library.
 
 <div class="image">
-    <a href="https://github.com/gonum/plot">
+    <a href="https://github.com/gonum/plot" target="_blank">
         <img src="{{ site.baseurl }}/assets/images/gonumplot-blog-logo.svg" alt="gonum/plot logo" >
     </a>
 </div>
