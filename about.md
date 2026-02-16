@@ -29,7 +29,7 @@ infrastructure and Kubernetes clusters.
 
 <p>
 Outside of coding, you’ll often find me immersed in a good fantasy book series, playing games on my computer or PlayStation,
-playing board games, or enjoying nature through long walks. I am also passionate about traveling and love visiting historical sites.
+playing board games, or enjoying nature through long walks.
 </p>
 </div>
 
