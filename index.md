@@ -13,19 +13,19 @@ title: About Me
 
   <div class="about-text"> 
     <p>
-      Hello, my name is <strong>Ondřej Benkovský</strong>. I am a systems-focused software engineer with over <strong>10 years of experience</strong> in building robust backend solutions. My work ranges from high-level web applications to low-level network services like DNS servers.
+      Hello, my name is <strong>Ondřej Benkovský</strong>. I am a systems-focused software engineer with over <strong>10 years of experience</strong> in building robust backend solutions ranging from various web application to low-level network services like DNS servers.
     </p>
 
     <p>
-      I specialize in building scalable, distributed, and performance-sensitive applications. I am particularly passionate about <strong>GoLang</strong> and <strong>Java</strong>, and I have extensive experience in designing and running applications on cloud infrastructure and Kubernetes clusters.
+      I specialize in building scalable backend solutions with a lot of experience in distributed and performance-sensitive applications for tackling real-world challenges efficiently. My go-to programming languages are <strong>Java</strong> and <strong>GoLang</strong>, and I have extensive experience designing and running applications on cloud infrastructure and Kubernetes clusters.
     </p>
 
     <p>
-      Beyond my professional roles, I am an active contributor to the open-source community as a <strong>maintainer for the CNCF CoreDNS project</strong>, which is a vital part of the Kubernetes ecosystem. I also created <strong>DNSpyre</strong>, an open-source tool for DNS load testing.
+      Beyond my professional roles, I am an active contributor to the open-source community as a <strong>maintainer for the CNCF CoreDNS project</strong> and the creator of <strong>DNSpyre</strong>, a CLI tool for DNS load testing.
     </p>
 
     <p>
-      Outside of coding, you'll often find me immersed in a good <strong>fantasy book series</strong> (big fan of Brandon Sanderson or Steven Erikson), playing games on my PC or PlayStation, or enjoying nature through long walks.
+      Outside of coding, you'll often find me immersed in a good <strong>fantasy book series</strong> (big fan of Brandon Sanderson or Steven Erikson), playing games on my computer or PlayStation, or enjoying nature through long walks.
     </p>
   </div>
 
@@ -36,50 +36,53 @@ title: About Me
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.5rem;
-    margin-top: 2rem;
+    gap: 2rem;
+    margin-top: 1rem;
   }
 
   .about-profile-img img {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
     object-fit: cover;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: 3px solid #f0f0f0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+    transition: transform 0.2s ease;
   }
 
   .about-profile-img img:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
   }
 
   .about-text {
     flex: 1;
-    line-height: 1.7;
-  }
-
-  .about-text p {
-    margin-bottom: 1.2rem;
+    line-height: 1.6;
+    font-size: 1.05rem;
   }
 
   @media (min-width: 768px) {
     .about-container {
       flex-direction: row;
       align-items: flex-start;
-      text-align: left;
+      gap: 3rem;
     }
     
-    .about-profile-img {
-      flex-shrink: 0;
-      position: sticky;
-      top: 20px;
+    .about-profile-img img {
+      width: 240px;
+      height: 240px;
+    }
+    
+    .about-text {
+      text-align: left;
     }
   }
 
   @media (max-width: 767px) {
     .about-container {
       text-align: center;
+    }
+    .about-profile-img {
+      margin-bottom: 0.5rem;
     }
   }
 </style>
