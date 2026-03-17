@@ -25,7 +25,7 @@ title: About Me
     </p>
 
     <p>
-      Outside of coding, you'll often find me immersed in a good <strong>fantasy book series</strong> (big fan of Brandon Sanderson or Steven Erikson), playing video games, or enjoying nature through long walks.
+      Outside of coding, you'll often find me immersed in a good <strong>fantasy book series</strong> (big fan of Robert Jordan, Brandon Sanderson or Steven Erikson), playing video games, or enjoying nature through long walks.
     </p>
   </div>
 
