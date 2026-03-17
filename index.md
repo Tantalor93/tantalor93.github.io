@@ -13,7 +13,7 @@ title: About Me
 
   <div class="about-text"> 
     <p>
-      Hello, my name is <strong>Ondřej Benkovský</strong>. I am a systems-focused software engineer with over <strong>10 years of experience</strong> in building robust backend solutions ranging from various web application to low-level network services like DNS servers.
+      Hello, my name is <strong>Ondřej Benkovský</strong>. I am a software engineer with over <strong>10 years of experience</strong> in building robust backend solutions ranging from various web application to low-level network services like DNS servers.
     </p>
 
     <p>
@@ -25,7 +25,7 @@ title: About Me
     </p>
 
     <p>
-      Outside of coding, you'll often find me immersed in a good <strong>fantasy book series</strong> (big fan of Brandon Sanderson or Steven Erikson), playing games on my computer or PlayStation, or enjoying nature through long walks.
+      Outside of coding, you'll often find me immersed in a good <strong>fantasy book series</strong> (big fan of Brandon Sanderson or Steven Erikson), playing video games, or enjoying nature through long walks.
     </p>
   </div>
 
