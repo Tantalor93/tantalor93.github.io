@@ -6,8 +6,8 @@ title: About Me
 <div class="about-container">
 
   <div class="about-profile-img">
-    <a href="{{ site.baseurl }}/assets/images/profile.jpeg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/profile.jpeg" alt="Ondřej Benkovský">
+    <a href="{{ site.baseurl }}/assets/images/profile.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Ondřej Benkovský">
     </a>
   </div>
 
